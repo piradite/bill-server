@@ -133,7 +133,7 @@ HARDCOVER: -------
     `,
     [process.env.CODE11]: `
       <div style="width: 50vw; height: 50vh; padding: 10px;">
-        <img src="https://media.discordapp.net/attachments/1104431544367579221/1269078318117032007/image.png?ex=66aec0c9&is=66ad6f49&hm=3541b49138a0e968144d040f93cffe83077c638b5849d60dc81bdc070353eb73&=&format=webp&quality=lossless&width=1027&height=660">
+        <img src="
       </div>
     `,
     [process.env.CODE12]: `
