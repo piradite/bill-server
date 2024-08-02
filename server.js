@@ -4,6 +4,7 @@ const cors = require('cors');
 const path = require('path');
 const bodyParser = require('body-parser');
 const helmet = require('helmet');
+const cheerio = require('cheerio');
 
 dotenv.config();
 
@@ -21,6 +22,13 @@ const normalizeCode = (code) => {
     .replace(/[^a-z0-9]/g, '');
 };
 
+const removeUnwantedElements = (html) => {
+  const $ = cheerio.load(html);
+  $('.ytp-chrome-top').remove(); // Remove ytp-chrome-top and its sub-elements
+  $('.ytp-watermark').remove();  // Remove ytp-watermark and its sub-elements
+  return $.html();
+};
+
 app.post('/', (req, res) => {
   const code = req.body.code;
 
@@ -34,17 +42,32 @@ app.post('/', (req, res) => {
     [process.env.CODE1]: `
       <body style="margin: 0; padding: 0; overflow: hidden;">
         <iframe 
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0&disablekb=1&fs=0&modestbranding=1&playsinline=1&loop=1&playlist=dQw4w9WgXcQ" 
+          src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0&showinfo=0&disablekb=1&fs=0&modestbranding=0&playsinline=1&loop=1&playlist=dQw4w9WgXcQ&controls=0&enablejsapi=1" 
           allow="autoplay" 
           allowfullscreen 
-          style="width: 50vw; height: 50vh; border: none; display: block; margin: 0 auto;"
+          style="width: 50vw; height: 50vh; border: none; display: block; margin: 0 auto; pointer-events: none;"
         ></iframe>
       </body>
     `,
     [process.env.CODE2]: `
-      <div style="width: 50vw; height: 50vh; overflow: auto; padding: 10px;">
-        <p>Example Content 2</p>
-      </div>
+        <body style="margin: 0; padding: 0; overflow: hidden;">
+        <iframe 
+        src="https://www.youtube-nocookie.com/embed/de1L1iRIcqU?autoplay=1&controls=0&showinfo=0&disablekb=1&fs=0&modestbranding=0&playsinline=1&loop=1&playlist=de1L1iRIcqU&controls=0&enablejsapi=1" 
+        allow="autoplay" 
+        allowfullscreen 
+        style="width: 50vw; height: 50vh; border: none; display: block; margin: 0 auto; pointer-events: none;"
+        ></iframe>
+    </body>
+    `,
+    [process.env.CODE3]: `
+    <body style="margin: 0; padding: 0; overflow: hidden;">
+    <iframe 
+    src="https://www.youtube-nocookie.com/embed/XDMAO7sHMz0?autoplay=1&controls=0&showinfo=0&disablekb=1&fs=0&modestbranding=0&playsinline=1&loop=1&playlist=XDMAO7sHMz0&controls=0&enablejsapi=1" 
+    allow="autoplay" 
+    allowfullscreen 
+    style="width: 50vw; height: 50vh; border: none; display: block; margin: 0 auto; pointer-events: none;"
+    ></iframe>
+    </body>
     `,
     [process.env.CODE4]: `
       <div style="width: 50vw; height: 50vh; padding: 10px;">
@@ -132,9 +155,11 @@ app.post('/', (req, res) => {
       </div>
     `,
   };
-  
+
   if (validCodes[normalizedCode]) {
-    res.status(200).send(validCodes[normalizedCode]);
+    const html = validCodes[normalizedCode];
+    const cleanedHtml = removeUnwantedElements(html);
+    res.status(200).send(cleanedHtml);
   } else {
     res.status(404).json({ success: false, message: 'Invalid code' });
   }
