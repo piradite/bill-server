@@ -46,6 +46,91 @@ app.post('/', (req, res) => {
         <p>Example Content 2</p>
       </div>
     `,
+    [process.env.CODE4]: `
+      <div style="width: 50vw; height: 50vh; padding: 10px;">
+        <p>Content for CODE4</p>
+      </div>
+    `,
+    [process.env.CODE5]: `
+      <div style="width: 50vw; height: 50vh; padding: 10px;">
+        <p>Content for CODE5</p>
+      </div>
+    `,
+    [process.env.CODE6]: `
+      <div style="width: 50vw; height: 50vh; padding: 10px;">
+        <p>Content for CODE6</p>
+      </div>
+    `,
+    [process.env.CODE7]: `
+      <div style="width: 50vw; height: 50vh; padding: 10px;">
+        <p>Content for CODE7</p>
+      </div>
+    `,
+    [process.env.CODE8]: `
+      <div style="width: 50vw; height: 50vh; padding: 10px;">
+        <p>Content for CODE8</p>
+      </div>
+    `,
+    [process.env.CODE9]: `
+      <div style="width: 50vw; height: 50vh; padding: 10px;">
+        <p>Content for CODE9</p>
+      </div>
+    `,
+    [process.env.CODE10]: `
+      <div style="width: 50vw; height: 50vh; padding: 10px;">
+        <p>Content for CODE10</p>
+      </div>
+    `,
+    [process.env.CODE11]: `
+      <div style="width: 50vw; height: 50vh; padding: 10px;">
+        <p>Content for CODE11</p>
+      </div>
+    `,
+    [process.env.CODE12]: `
+      <div style="width: 50vw; height: 50vh; padding: 10px;">
+        <p>Content for CODE12</p>
+      </div>
+    `,
+    [process.env.CODE13]: `
+      <div style="width: 50vw; height: 50vh; padding: 10px;">
+        <p>Content for CODE13</p>
+      </div>
+    `,
+    [process.env.CODE14]: `
+      <div style="width: 50vw; height: 50vh; padding: 10px;">
+        <p>Content for CODE14</p>
+      </div>
+    `,
+    [process.env.CODE15]: `
+      <div style="width: 50vw; height: 50vh; padding: 10px;">
+        <p>Content for CODE15</p>
+      </div>
+    `,
+    [process.env.CODE16]: `
+      <div style="width: 50vw; height: 50vh; padding: 10px;">
+        <p>Content for CODE16</p>
+      </div>
+    `,
+    [process.env.CODE17]: `
+      <div style="width: 50vw; height: 50vh; padding: 10px;">
+        <p>Content for CODE17</p>
+      </div>
+    `,
+    [process.env.CODE18]: `
+      <div style="width: 50vw; height: 50vh; padding: 10px;">
+        <p>Content for CODE18</p>
+      </div>
+    `,
+    [process.env.CODE19]: `
+      <div style="width: 50vw; height: 50vh; padding: 10px;">
+        <p>Content for CODE19</p>
+      </div>
+    `,
+    [process.env.CODE20]: `
+      <div style="width: 50vw; height: 50vh; padding: 10px;">
+        <p>Content for CODE20</p>
+      </div>
+    `,
   };
   
   if (validCodes[normalizedCode]) {
