@@ -70,9 +70,14 @@ app.post('/', (req, res) => {
     </body>
     `,
     [process.env.CODE4]: `
-      <div style="width: 50vw; height: 50vh; padding: 10px;">
-        <p>Content for CODE4</p>
-      </div>
+    <body style="margin: 0; padding: 0; overflow: hidden;">
+    <iframe 
+    src="https://www.youtube-nocookie.com/embed/g-mlPK_8BVI?autoplay=1&controls=0&showinfo=0&disablekb=1&fs=0&modestbranding=0&playsinline=1&loop=1&playlist=g-mlPK_8BVI&controls=0&enablejsapi=1" 
+    allow="autoplay" 
+    allowfullscreen 
+    style="width: 50vw; height: 50vh; border: none; display: block; margin: 0 auto; pointer-events: none;"
+    ></iframe>
+    </body>
     `,
     [process.env.CODE5]: `
       <div style="width: 50vw; height: 50vh; padding: 10px;">
