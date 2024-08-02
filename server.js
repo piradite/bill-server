@@ -80,40 +80,6 @@ app.post('/', (req, res) => {
     </body>
     `,
     [process.env.CODE5]: `
-    <style>
-    .container {
-      position: relative;
-      width: 50vw;
-      height: 50vh;
-      padding: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .background-image {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    .overlay-image {
-      position: absolute;
-      width: 50%;
-      height: 50%;
-      top: 25%;
-      left: 25%;
-      object-fit: cover;
-    }
-    .timer {
-      position: absolute;
-      bottom: 10px;
-      font-size: 2rem;
-      background: rgba(0, 0, 0, 0.5);
-      color: white;
-      padding: 5px;
-      border-radius: 5px;
-    }
-  </style>
 </head>
 <body>
   <div class="container">
