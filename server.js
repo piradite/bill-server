@@ -112,9 +112,9 @@ HARDCOVER: -------
 </body>
     `,
     [process.env.CODE8]: `
-      <div style="width: 50vw; height: 50vh; padding: 10px;">
-        <p>Content for CODE8</p>
-      </div>62GQbwih6is
+    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute; color: #541D04">
+    You think the world makes sense? Nothing makes sense! So you might as well make nonsense, think about it!
+  </p>
     `,
     [process.env.CODE9]: `
     <body style="margin: 0; padding: 0; overflow: hidden;">
@@ -127,13 +127,13 @@ HARDCOVER: -------
 </body>
     `,
     [process.env.CODE10]: `
-      <div style="width: 50vw; height: 50vh; padding: 10px;">
-        <p>Content for CODE10</p>
-      </div>
+    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute; color: #541D04">
+    Ah, Vera Lynn, I love her voice, it hurts to say goodbye... the tempo...
+  </p>
     `,
     [process.env.CODE11]: `
       <div style="width: 50vw; height: 50vh; padding: 10px;">
-        <p>Content for CODE11</p>
+        <img src="https://media.discordapp.net/attachments/1104431544367579221/1269078318117032007/image.png?ex=66aec0c9&is=66ad6f49&hm=3541b49138a0e968144d040f93cffe83077c638b5849d60dc81bdc070353eb73&=&format=webp&quality=lossless&width=1027&height=660">
       </div>
     `,
     [process.env.CODE12]: `
@@ -142,19 +142,27 @@ HARDCOVER: -------
       </div>
     `,
     [process.env.CODE13]: `
-      <div style="width: 50vw; height: 50vh; padding: 10px;">
-        <p>Content for CODE13</p>
-      </div>
+    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute; color: #541D04">
+    You'll have to think a little about this one △ 1:12
+  </p>
     `,
     [process.env.CODE14]: `
-      <div style="width: 50vw; height: 50vh; padding: 10px;">
-        <p>Content for CODE14</p>
-      </div>
+    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute; color: #541D04">
+    17th day of being in Gravity Falls. I hear some loud noise, it's very annoying, how was it called?
+  </p>
     `,
     [process.env.CODE15]: `
-      <div style="width: 50vw; height: 50vh; padding: 10px;">
-        <p>Content for CODE15</p>
-      </div>
+    <body style="margin: 0; padding: 0; overflow: hidden;">
+    <iframe 
+    src="https://www.youtube-nocookie.com/embed/mAisA7XxiOM?autoplay=1&amp;start=8&controls=0&showinfo=0&disablekb=1&fs=0&modestbranding=0&playsinline=1&loop=1&playlist=mAisA7XxiOM&controls=0&enablejsapi=1" 
+    allow="autoplay" 
+    allowfullscreen 
+    style="width: 50vw; height: 50vh; border: none; display: block; margin: 0 auto; pointer-events: none;"
+    ></iframe>
+    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute; color: #541D04">
+    What was first?
+  </p>
+</body>
     `,
     [process.env.CODE16]: `
       <div style="width: 50vw; height: 50vh; padding: 10px;">
