@@ -80,9 +80,75 @@ app.post('/', (req, res) => {
     </body>
     `,
     [process.env.CODE5]: `
-      <div style="width: 50vw; height: 50vh; padding: 10px;">
-        <p>Content for CODE5</p>
-      </div>
+    <style>
+    .container {
+      position: relative;
+      width: 50vw;
+      height: 50vh;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .background-image {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .overlay-image {
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      top: 25%;
+      left: 25%;
+      object-fit: cover;
+    }
+    .timer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 2rem;
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      padding: 5px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="path/to/first-image.jpg" alt="Background" class="background-image">
+    <img src="path/to/second-image.png" alt="Overlay" class="overlay-image">
+    <div id="timer" class="timer"></div>
+  </div>
+
+  <script>
+    const endTime = new Date("2024-08-10T00:00:00").getTime(); // Set your end time here
+
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const distance = endTime - now;
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Pad values with leading zeros if needed
+      const formattedDays = days < 10 ? \`0\${days}\` : days;
+      const formattedHours = hours < 10 ? \`0\${hours}\` : hours;
+      const formattedMinutes = minutes < 10 ? \`0\${minutes}\` : minutes;
+      const formattedSeconds = seconds < 10 ? \`0\${seconds}\` : seconds;
+
+      // Update timer HTML
+      document.getElementById('timer').innerHTML = distance < 0
+        ? "NOW<br/><small>(REFRESH)</small>"
+        : \`\${formattedDays}:\${formattedHours}:\${formattedMinutes}:\${formattedSeconds}\`;
+    }
+
+    setInterval(updateCountdown, 1000);
+    updateCountdown(); // Initial call
+  </script>
+</body>
     `,
     [process.env.CODE6]: `
       <div style="width: 50vw; height: 50vh; padding: 10px;">
