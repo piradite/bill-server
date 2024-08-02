@@ -99,7 +99,7 @@ rybbveht
       style="width:100%; height:100%; margin:1%;">
         </object>
         <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 30%; position: absolute; color: #541D04">
-HARDCOVER: -------
+HARDCOVER:
 </p>
       </div>
     `,
