@@ -95,7 +95,12 @@ rybbveht
     `,
     [process.env.CODE6]: `
       <div style="width: 50vw; height: 50vh; padding: 10px;">
-        <p>Content for CODE6</p>
+      <object type="text/html" data="https://www.amazon.com/Book-Bill-Alex-Hirsch/dp/1368092209"
+      style="width:100%; height:100%; margin:1%;">
+        </object>
+        <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 30%; position: absolute; color: #541D04">
+HARDCOVER: -------
+</p>
       </div>
     `,
     [process.env.CODE7]: `
