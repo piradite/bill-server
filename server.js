@@ -137,9 +137,17 @@ HARDCOVER: -------
       </div>
     `,
     [process.env.CODE12]: `
-      <div style="width: 50vw; height: 50vh; padding: 10px;">
-        <p>Content for CODE12</p>
-      </div>
+    <body style="margin: 0; padding: 0; overflow: hidden;">
+    <iframe 
+    src="https://www.youtube-nocookie.com/embed/62GQbwih6is?autoplay=1&amp;start=8&controls=0&showinfo=0&disablekb=1&fs=0&modestbranding=0&playsinline=1&loop=1&playlist=62GQbwih6is&controls=0&enablejsapi=1" 
+    allow="autoplay" 
+    allowfullscreen 
+    style="width: 50vw; height: 50vh; border: none; display: block; margin: 0 auto; pointer-events: none;"
+    ></iframe>
+    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute; color: #541D04">
+    Watch the piano
+  </p>
+</body>
     `,
     [process.env.CODE13]: `
     <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute; color: #541D04">
