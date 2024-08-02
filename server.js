@@ -102,19 +102,29 @@ HARDCOVER: -------
       </div>
     `,
     [process.env.CODE7]: `
-      <div style="width: 50vw; height: 50vh; padding: 10px;">
-        <p>Content for CODE7</p>
-      </div>
+    <body style="margin: 0; padding: 0; overflow: hidden;">
+    <iframe 
+    src="https://www.youtube-nocookie.com/embed/mscDaDd1ipk?autoplay=1&amp;start=8&controls=0&showinfo=0&disablekb=1&fs=0&modestbranding=0&playsinline=1&loop=1&playlist=mscDaDd1ipk&controls=0&enablejsapi=1" 
+    allow="autoplay" 
+    allowfullscreen 
+    style="width: 50vw; height: 50vh; border: none; display: block; margin: 0 auto; pointer-events: none;"
+    ></iframe>
+</body>
     `,
     [process.env.CODE8]: `
       <div style="width: 50vw; height: 50vh; padding: 10px;">
         <p>Content for CODE8</p>
-      </div>
+      </div>62GQbwih6is
     `,
     [process.env.CODE9]: `
-      <div style="width: 50vw; height: 50vh; padding: 10px;">
-        <p>Content for CODE9</p>
-      </div>
+    <body style="margin: 0; padding: 0; overflow: hidden;">
+    <iframe 
+    src="https://www.youtube-nocookie.com/embed/62GQbwih6is?autoplay=1&amp;start=8&controls=0&showinfo=0&disablekb=1&fs=0&modestbranding=0&playsinline=1&loop=1&playlist=62GQbwih6is&controls=0&enablejsapi=1" 
+    allow="autoplay" 
+    allowfullscreen 
+    style="width: 50vw; height: 50vh; border: none; display: block; margin: 0 auto; pointer-events: none;"
+    ></iframe>
+</body>
     `,
     [process.env.CODE10]: `
       <div style="width: 50vw; height: 50vh; padding: 10px;">
