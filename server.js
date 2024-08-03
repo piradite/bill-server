@@ -178,7 +178,7 @@ HARDCOVER: -------
       </div>
     `,
     [process.env.CODE17]: `
-    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute; color: #541D04">
+    <p style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 0%; position: absolute; color: #541D04">
     ah... the legends lost... (utvd vhoxk)
   </p>
     `,
@@ -193,9 +193,13 @@ HARDCOVER: -------
       </div>
     `,
     [process.env.CODE20]: `
-      <div style="width: 50vw; height: 50vh; padding: 10px;">
-        <p>Content for CODE20</p>
-      </div>
+    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute; color: #541D04">
+    Do you accept the deal?
+    <br>
+    <a href="your_yes_link_here" style="display: block; margin-top: 10px; color: #541D04;">Yes</a>
+    <a href="your_no_link_here" style="display: block; margin-top: 10px; color: #541D04;">No</a>
+  </p>
+  
     `,
   };
 
