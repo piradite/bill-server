@@ -96,7 +96,7 @@ rybbveht
     [process.env.CODE6]: `
       <div style="width: 25vw; height: 50vh; padding: 10px;">
         <img src="https://m.media-amazon.com/images/I/81O6JfipQhL._SL1500_.jpg" style="width: 50vw; height: 50vh; border: none; display: block; margin: 0 auto; pointer-events: none;">
-        <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 30%; position: absolute; color: #541D04">
+        <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 30%;white-space: nowrap; position: absolute; color: #541D04">
 HARDCOVER: -------
 </p>
       </div>
@@ -167,7 +167,7 @@ HARDCOVER: -------
     allowfullscreen 
     style="width: 50vw; height: 50vh; border: none; display: block; margin: 0 auto; pointer-events: none;"
     ></iframe>
-    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute; color: #541D04">
+    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute;white-space: nowrap; color: #541D04">
     What was first?
   </p>
 </body>
