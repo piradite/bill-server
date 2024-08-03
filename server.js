@@ -112,7 +112,7 @@ HARDCOVER: -------
 </body>
     `,
     [process.env.CODE8]: `
-    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute; color: #541D04">
+    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute;white-space: nowrap; color: #541D04">
     You think the world makes sense? Nothing makes sense! So you might as well make nonsense, think about it!
   </p>
     `,
