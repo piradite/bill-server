@@ -127,7 +127,7 @@ HARDCOVER: -------
 </body>
     `,
     [process.env.CODE10]: `
-    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute; color: #541D04">
+    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute; white-space: nowrap;color: #541D04">
     Ah, Vera Lynn, I love her voice, it hurts to say goodbye... the tempo...
   </p>
     `,
@@ -144,18 +144,18 @@ HARDCOVER: -------
     allowfullscreen 
     style="width: 50vw; height: 50vh; border: none; display: block; margin: 0 auto; pointer-events: none;"
     ></iframe>
-    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute; color: #541D04">
+    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute;white-space: nowrap; color: #541D04">
     Watch the piano
   </p>
 </body>
     `,
     [process.env.CODE13]: `
-    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute; color: #541D04">
+    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute;white-space: nowrap; color: #541D04">
     You'll have to think a little about this one △ 1:12
   </p>
     `,
     [process.env.CODE14]: `
-    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute; color: #541D04">
+    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute;white-space: nowrap; color: #541D04">
     17th day of being in Gravity Falls. I hear some loud noise, it's very annoying, how was it called?
   </p>
     `,
@@ -167,7 +167,7 @@ HARDCOVER: -------
     allowfullscreen 
     style="width: 50vw; height: 50vh; border: none; display: block; margin: 0 auto; pointer-events: none;"
     ></iframe>
-    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute;white-space: nowrap; color: #541D04">
+    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center;white-space: nowrap; left: 0; right: 0; bottom: 40%; position: absolute;white-space: nowrap; color: #541D04">
     What was first?
   </p>
 </body>
