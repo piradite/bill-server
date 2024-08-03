@@ -174,7 +174,7 @@ HARDCOVER: -------
     `,
     [process.env.CODE16]: `
       <div style="width: 50vw; height: 50vh; padding: 10px;">
-        <img src="https://static.wikia.nocookie.net/disney/images/5/50/S1e4_mystery_shack.png">
+        <img src="https://i.pinimg.com/originals/f0/c6/f2/f0c6f2b8e0f4916d46d29252df558aef.jpg">
       </div>
     `,
     [process.env.CODE17]: `
