@@ -179,7 +179,7 @@ HARDCOVER: -------
     `,
     [process.env.CODE17]: `
     <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute; color: #541D04">
-    ah... the legends lost... ()
+    ah... the legends lost... (utvd vhoxk)
   </p>
     `,
     [process.env.CODE18]: `
