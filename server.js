@@ -178,26 +178,29 @@ HARDCOVER: -------
       </div>
     `,
     [process.env.CODE17]: `
-    <p style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 0%; position: absolute; color: #541D04">
+    <p style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 0%; position: absolute;white-space: nowrap; color: #541D04">
     ah... the legends lost... (utvd vhoxk)
   </p>
     `,
     [process.env.CODE18]: `
-      <div style="width: 50vw; height: 50vh; padding: 10px;">
-        <p>Content for CODE18</p>
-      </div>
+    <iframe 
+    src="https://www.youtube-nocookie.com/embed/H9Mfhy6I5gk?autoplay=1&amp;start=8&controls=0&showinfo=0&disablekb=1&fs=0&modestbranding=0&playsinline=1&loop=1&playlist=H9Mfhy6I5gk&controls=0&enablejsapi=1" 
+    allow="autoplay" 
+    allowfullscreen 
+    style="width: 50vw; height: 50vh; border: none; display: block; margin: 0 auto; pointer-events: none;"
+    ></iframe>
     `,
     [process.env.CODE19]: `
-      <div style="width: 50vw; height: 50vh; padding: 10px;">
-        <p>Content for CODE19</p>
-      </div>
+    <p style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 0%; position: absolute;white-space: nowrap; color: #541D04">
+    WHICH ONE RELEASES THE TRAPDOOR
+  </p>
     `,
     [process.env.CODE20]: `
-    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%; position: absolute; color: #541D04">
+    <p class="text-2xl md:text-4xl" style="font-family: 'Yesteryear', serif; text-align: center; left: 0; right: 0; bottom: 40%;white-space: nowrap; position: absolute; color: #541D04">
     Do you accept the deal?
     <br>
-    <a href="your_yes_link_here" style="display: block; margin-top: 10px; color: #541D04;">Yes</a>
-    <a href="your_no_link_here" style="display: block; margin-top: 10px; color: #541D04;">No</a>
+    <a href="https://www.youtube.com/watch?v=xOMANxVfuuw" style="display: block;white-space: nowrap; margin-top: 10px; color: #541D04;">Yes</a>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="display: block; white-space: nowrap;margin-top: 10px; color: #541D04;">No</a>
   </p>
   
     `,
