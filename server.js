@@ -205,7 +205,7 @@ HARDCOVER: -------
   
     `,
     [process.env.CODE21]: `
-    <div style="width: 50vw; height: 50vh; padding: 10px;">
+    <div style="width: 50vw; height: 50vh; padding: 0px;">
     <img src="https://media.discordapp.net/attachments/1268231029072597086/1269695562643406908/IMG_2952.png?ex=66b0ffa3&is=66afae23&hm=e7563a1638a2b5847ccbdaa2cd2c75799d3af508eebfc273ae7076e3335a52c6&=&format=webp&quality=lossless&width=771&height=660">
   </div>
 `
